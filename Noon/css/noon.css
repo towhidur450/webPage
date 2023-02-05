@@ -1,0 +1,188 @@
+@charset "UFT-8";
+
+html{
+    font-size: 16px;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    line-height: normal;
+    font-family: "Helvetica Neue", 
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    background-color: rgba(134, 240, 240, 0.58);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow:scroll;
+}
+
+
+/*ヘッタ*/
+header{
+    margin-top:2px;
+    color:rgba(196, 48, 48, 0.81);
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+header h2{
+    font-size: 25px;
+    color:rgba(117, 17, 234, 0.81);
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    width: 400px;
+    height: 50px;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    background-color: beige;
+}
+
+/*ヘッタ*/
+
+
+ul {
+     margin-top:2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+
+    
+}
+/*ul li{
+    color: white;
+    margin:10px 2px 2px;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+    border: 3px solid #1c87c9;
+    background-color: #4d4949;
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 40%;
+}*/
+ul li{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 35px;
+    margin:10px 37% 2px;
+    display: block;
+    border: solid 1px transparent;
+    border: 3px solid #1c87c9;
+    color: #fff;
+    background-color: #000;
+}
+/*li{
+  
+    color: white;
+    margin:10px 2px 2px;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+    border: 3px solid #1c87c9;
+    background-color: #4d4949;
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+}
+*/
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    list-style-type:none;
+}
+ul li:hover{
+    background-color:red;
+}
+
+/*バックする*/
+.back_top{
+ margin:20px;
+ text-align: right;
+}
+.back_top a{   
+ display: inline-block;
+    padding: 10px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+.back_top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+.back_top a:hover{
+    opacity: 0.6;
+    background: linear-gradient(#da70d6 0%, pink 100%);
+}
+/*バックする*/
+/*フッター*/
+footer p{
+    position: fixed;
+    bottom:0px;
+    width:300px;
+    margin:0px;
+    padding:1px;
+    right: 40%;
+    color: whitesmoke;
+    font: 16px Rajdhani;
+    text-align: center;
+    background: rgba(1,24,31,0.7);
+    /*padding-bottom: 0px;
+    margin-bottom: 0;*/
+}
+/*フッター*/
+
+/* class=back                                         */
+/* id=btn99 backボタン                                 */
+/*******************************************************/
+.back{
+    text-align: left;
+  }
+  #btn99{
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: whitesmoke;
+    font-size: 1.5em;
+    background: rgb(26, 212, 212);
+    cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
+}
+
+
+/*モバイル表示*/
+/*iphonex*/
+@media screen and (max-width:390px) and (max-height:844px) {
+   
+
+}
+/*iphonex*/
+
+/*iphone6/7/8 */
+@media screen and (max-width:480px) and (max-height:667px) {
+    
+}
+
+/*iphone6/7/8 */
+/*モバイル表示*/
